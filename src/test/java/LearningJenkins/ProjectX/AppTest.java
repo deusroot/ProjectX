@@ -1,5 +1,7 @@
 package LearningJenkins.ProjectX;
 
+import static org.junit.Assert.assertEquals;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -33,6 +35,16 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+    	Learning obj=new Learning();
+		int res=obj.add(50,70);
+		assertEquals(120,res);
     }
+    
+    public void AddTest2()
+	{
+		Learning obj=new Learning();
+		String res=obj.concatenation("Hello ", "World!");
+		assertEquals("Hello World!",res);
+	}
+    
 }
