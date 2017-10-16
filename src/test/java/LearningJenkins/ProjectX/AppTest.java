@@ -39,7 +39,7 @@ public class AppTest
 		int res=obj.add(200,400);
 		assertEquals(600,res);
 		
-		int res=obj.add(20,40);
+		res=obj.add(20,40);
 		assertEquals(60,res);
 		
 		
