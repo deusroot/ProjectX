@@ -36,15 +36,13 @@ public class AppTest
     public void testApp()
     {
     	Learning obj=new Learning();
-		int res=obj.add(50,70);
-		assertEquals(120,res);
+		int res=obj.add(200,400);
+		assertEquals(600,res);
+		
+		
+		String res1=obj.concatenation("Hello ", "World!");
+		assertEquals("Hello World!",res1);
     }
     
-    public void AddTest2()
-	{
-		Learning obj=new Learning();
-		String res=obj.concatenation("Hello ", "World!");
-		assertEquals("Hello World!",res);
-	}
     
 }
