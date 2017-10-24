@@ -37,7 +37,7 @@ public class AppTest
     {
     	Learning obj=new Learning();
 		int res=obj.add(200,400);
-		assertEquals(800,res);
+		assertEquals(600,res);
 		
 		res=obj.add(20,40);
 		assertEquals(60,res);
